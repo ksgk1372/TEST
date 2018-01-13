@@ -13,6 +13,7 @@
 		C195B99E200A5996004B49BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C195B99D200A5996004B49BA /* Assets.xcassets */; };
 		C195B9A1200A5996004B49BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C195B99F200A5996004B49BA /* LaunchScreen.storyboard */; };
 		C195B9A4200A5996004B49BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C195B9A3200A5996004B49BA /* main.m */; };
+		C195B9AC200A5A85004B49BA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C195B9AB200A5A85004B49BA /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C195B9A0200A5996004B49BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C195B9A2200A5996004B49BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C195B9A3200A5996004B49BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C195B9AA200A5A85004B49BA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C195B9AB200A5A85004B49BA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		C195B993200A5996004B49BA /* GITHUB_TEST */ = {
 			isa = PBXGroup;
 			children = (
+				C195B9AA200A5A85004B49BA /* Person.h */,
+				C195B9AB200A5A85004B49BA /* Person.m */,
 				C195B994200A5996004B49BA /* AppDelegate.h */,
 				C195B995200A5996004B49BA /* AppDelegate.m */,
 				C195B997200A5996004B49BA /* ViewController.h */,
@@ -144,6 +149,7 @@
 			files = (
 				C195B999200A5996004B49BA /* ViewController.m in Sources */,
 				C195B9A4200A5996004B49BA /* main.m in Sources */,
+				C195B9AC200A5A85004B49BA /* Person.m in Sources */,
 				C195B996200A5996004B49BA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
